@@ -84,7 +84,7 @@ body{
 }
 /*h2*/
 .information-title h2{
-	height: 40px;
+	height: 30px;
 	line-height: 30px;
 	background: #fe7464;
 	width: 130px;
@@ -136,7 +136,7 @@ body{
 	text-decoration: underline;
 }
 .label li{
-	line-height: 0px;
+	line-height: 10px;
 	height: 10px;
 	background: #cecece;
 	float: left;
@@ -148,8 +148,8 @@ body{
 }
 /*第一栏的小框 放一张图片和对应的文字*/
 .new-if{
-	width: 340px;
-	height: 100px;
+	width: 320px;
+	height: 80px;
 	background: #CECECE;
 	padding: 10px;
 }
@@ -194,7 +194,7 @@ body{
 	margin-right: 0;
 }
 .company-ad .new-if p,.company-ad-left .new-if p{
-	width: 64px;
+	width: 84px;
 }
 .company-news .information-main{
 	width: 39%;
