@@ -1,0 +1,28 @@
+.wrap-header{
+	width: 1190px;
+	margin: auto;
+	color: #000;
+}
+.wrap-header{
+	height: 30px;
+	line-height: 30px;
+	overflow: auto;
+}
+.wrap-header p{
+	float: left;
+}
+.wrap-header ul{
+	float: right;
+}
+.wrap-header li {
+	float: left;
+	font-size: 12px;
+}
+.wrap-header li a{
+	padding: 0 10px;
+	border-right: 1px solid #000;
+	color: #000;
+}
+.wrap-header li:last-of-type a{
+	border: none;
+}
