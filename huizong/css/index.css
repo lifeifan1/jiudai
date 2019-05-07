@@ -43,7 +43,14 @@ img {
 
 
 /* pageflip */
-
+article:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
 #pageflip {
 	right: 0px;
 	float: right;
