@@ -495,16 +495,58 @@ body{
 	color: #fff;
 }
 
+.yibei{
+	width: 400px;
+	height: 300px;
+	background: #F9E843;
+	position: absolute;
+	top: 600px;
+	left: 400px;
+}
+.yibei img{
+	width: 250px;
+	height: 300px;
+}
+.xijiu{
+	width: 150px;
+	height: 300px;
+	float: right;
+	background: #Fff;
+}
 
-
-
-
-
+.xijiu p:first-child{
+	margin-top: 50px;
+	width: 96px;
+	height: 63px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #f00;
+}
+.xijiu p{
+	width: 130px;
+	height: 50px;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.xijiu span{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: #f00;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 20px;	
+}
+.xijiu span a{
+	color: #fff;
+}
+/*酒是爱你*/
 
 
 .meinian{
 	width: 100%;
-	height: 850px;
+	height: 100%;
 	background: #FE3C3C;
 }
 .meinian h1{
@@ -518,7 +560,7 @@ body{
 }
 .fazhan{
 	width: 1000px;
-	height: 400px;
+	height: 700px;
 	background: #F0AD4E;
 	margin: 0 auto;
 }
@@ -534,5 +576,56 @@ body{
 	margin-left:70px;
 	line-height: 30px;
 }
-
+/*每年卖多少酒*/
+.zhenai{
+	width: 1000px;
+	height: 1250px;
+	background: #0E90D2;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.suo{
+	width: 1000px;
+	height: 305px;
+/*	margin-top: 20px;*/
+}
+.jiu_1{
+	width: 325px;
+	height: 300px;
+	float: left;
+	background: #00FF00;
+	margin-left: 6px;
+	margin-top: 10px;
+}
+.jiu_1 dl dd{
+	width: 325px;
+	height: 230px;
+}
+.jiu_1 dt{
+	width: 325px;
+	height: 25px;
+	font-size: 12px;
+	background: #F0F0F0;
+	line-height: 25px;
+}
+.jiu_1 span{
+	width: 325px;
+	height: 50px;
+	display: block;
+	background: #FE7464;
+}
+.jiu_1 span p{
+	width: 200px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 10px;
+}
+b{
+	width: 48px;
+	height: 44px;
+	float: right;
+}
 
