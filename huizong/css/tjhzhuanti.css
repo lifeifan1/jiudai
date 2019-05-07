@@ -1,0 +1,37 @@
+header,section,footer{
+	width: 100%;
+}
+header{
+	background: #fff;
+}
+section{
+	background: #c80000;
+}
+.header,.main,.footer{
+	width: 1190px;
+	margin: auto;
+}
+.header{
+	height: 30px;
+	line-height: 30px;
+	overflow: auto;
+}
+.header p{
+	float: left;
+}
+.header ul{
+	float: right;
+}
+.header li {
+	float: left;
+	font-size: 12px;
+}
+.header li a{
+	padding: 0 10px;
+	border-right: 1px solid #000;
+	color: #000;
+}
+
+.main img{
+	width: 100%;
+}
