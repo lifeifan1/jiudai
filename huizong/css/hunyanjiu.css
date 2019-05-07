@@ -1,0 +1,120 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{margin:0;padding:0}
+body{font:18px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;}
+
+body{
+	width: 100%;
+}
+/*重置样式*/
+.top{
+	width: 100%;
+	height: 30px;
+	background:#E0E0E0;
+}
+.top1{
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+}
+.logo{
+	width: 145px;
+	height: 30px;
+	float: left;
+}
+.nav{
+	width: 700px;
+	height: 30px;
+	float: right;
+}
+.nav li{
+	width: 77px;
+	height: 30px;
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+}
+/*导航*/
+.jiehunji{
+	width: 100%;
+	height: 700px;
+	background:url(../img/beijing_hunyanjiu.png) no-repeat;
+}
+/*需要背景图1*/
+.fangsi{
+	width: 100%;
+	height: 800px;
+	background:#F2DEDE;
+}
+.buer{
+	width: 170px;
+	height: 180px;
+	background: #F0E68C;
+}
+.buer p:first-child{
+	width: 96px;
+	height: 63px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #f00;
+}
+.buer p{
+	width: 130px;
+	height: 40px;
+	font-size: 13px;
+	margin-left: 20px;
+}
+.buer span{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background: #f00;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 20px;	
+}
+.buer span a{
+	color: #fff;
+}
+/*小模块*/
+
+
+.meinian{
+	width: 100%;
+	height: 850px;
+	background: #FE3C3C;
+}
+.meinian h1{
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100px;
+}
+.fazhan{
+	width: 1000px;
+	height: 400px;
+	background: #F0AD4E;
+	margin: 0 auto;
+}
+.fazhan h3{
+	width: 600px;
+	height: 40px;
+	color: #FE3C3C;
+	margin-left:70px;
+	line-height: 40px;	
+}
+.fazhan p{
+	width: 750px;
+	margin-left:70px;
+	line-height: 30px;
+}
+
+
