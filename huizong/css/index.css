@@ -44,6 +44,14 @@ img {
 
 /* pageflip */
 
+article:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
 #pageflip {
 	right: 0px;
 	float: right;
@@ -216,7 +224,7 @@ img {
 
 #min_banner {
 	width: 1190px;
-	height: 500px;
+	height: 135px;
 	margin: 10px auto;
 }
 
@@ -319,14 +327,12 @@ img {
 	width: 1190px;
 	height: 170px;
 	margin: 30px auto;
-	background-color: red;
 }
 
-#minZx li {
+#minZx li,#minZx img{
 	width: 130px;
 	height: 130px;
 	border-radius: 50%;
-	background-color: blue;
 	float: left;
 	margin: 20px 35px 0 20px;
 }
@@ -660,23 +666,23 @@ b {
 
 #zsbk {
 	width: 1190px;
-	height: 800px;
 	background-color: #fff;
 	margin: 0 auto;
 }
 
-#zsbk .bt_1 {
-	width: 1190px;
+.bt_1 {
+	width: 100%;
 	height: 68px;
 	position: relative;
 	border-bottom: 2px solid #9ee;
 }
 
-#zsbk .bt_1 h1 {
+.bt_1 h1 {
 	line-height: 68px;
+	height: 68px;
 }
 
-#zsbk .bt_1 p {
+.bt_1 p {
 	position: absolute;
 	right: 10px;
 	top: 30px;
@@ -695,4 +701,118 @@ b {
 #zsbk #gtar img,
 #zsbk #gtar li {
 	width: 188px;
+}
+.xwbk_01{
+	height: 280px;
+	width: 1190px;
+	margin: 20px auto;
+	
+}
+._01_left{
+	float: left;
+	width: 800px;
+	height: 280px;
+
+}
+._left_bt{
+	height: 49px;
+	border-bottom: 1px solid #9ee;
+
+}
+._left_bt div{
+	float: left;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	
+}
+._left_nr{
+	position: relative;
+	height: 230px;
+}
+._left_nr div{
+	width: 800px;
+	height: 230px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+._left_nr div:last-child{
+	display: none;
+}
+._left_nr div:first-child{
+	display: block;
+}
+
+._left_nr ul{
+	float: left;
+	padding: 20px 0 0 50px;
+	width: 350px;
+	height: 210px;
+	line-height: 20px;
+}
+._01_right .bt_1{
+	height: 50px;
+	
+}
+._01_right{
+	float: right;
+	width: 350px;
+	height: 280px;
+}
+._01_right h1{
+	line-height: 50px;
+	text-align: center;
+}
+._01_right img{
+	height: 230px;
+	width: 350px;
+}
+#resou{
+	width:1160px;
+	height: 460px;
+	padding: 0 15px;
+
+	background-color: #eee
+}
+#resou .min_img{
+	height: 80px;
+	width: 100%;
+	
+}
+.liebiao{
+	width: 240px;
+	margin: 0 10px;
+	float: left;
+	padding-left: 30px;
+}
+.liebiao h1{
+	line-height: 50px;
+	color: #f40;
+}
+.liebiao li{
+	width: 100%;
+	background-color: #fff;
+	line-height: 31px;
+	border-bottom: 1px dashed #aaa;
+}
+.liebiao em{
+	color: #f40;
+	padding:0 15px;
+}
+.liebiao span{
+	float: right;	
+	margin-right: 15px;
+}
+#wubu{
+	width: 1000px;
+	margin: 20px auto;
+	padding: 0 95px;
+	background-color: #fff;
+	border-top: 1px solid #f40;
+}
+#wubu div:nth-child(1){
+	width: 100%;
+	background-color: #fff;
 }
