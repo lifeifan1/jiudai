@@ -43,17 +43,7 @@
 				<div class="huabox">
 					<h5>新闻推荐</h5>
 					<div class="notice_active">
-						<ul>
-							<li class="notice_active_ch">
-								<span>滑动轮播11111111111</span>
-							</li>
-							<li class="notice_active_ch">
-								<span>滑动轮播222222222</span>
-							</li>
-							<li class="notice_active_ch">
-								<span>滑动轮播33333333333</span>
-							</li>
-						</ul>
+						<marquee behavior="scroll" direction="left" width="240" height="30" scrollamount="3">滑动轮播11111111111滑动轮播222222222222</marquee>
 					</div>
 				</div>
 			</div>
@@ -61,17 +51,15 @@
 				<div class="huabox">
 					<h5>产品推荐</h5>
 					<div class="notice_active">
-						<ul>
-							<li class="notice_active_ch">
-								<span>滑动轮播11111111111</span>
-							</li>
-							<li class="notice_active_ch">
-								<span>滑动轮播222222222</span>
-							</li>
-							<li class="notice_active_ch">
-								<span>滑动轮播33333333333</span>
-							</li>
-						</ul>
+						<marquee behavior="scroll" direction="left" width="240" height="30" scrollamount="3">滑动轮播11111111111滑动轮播222222222222</marquee>
+					</div>
+				</div>
+			</div>
+			<div class="huadong">
+				<div class="huabox">
+					<h5>专题推荐</h5>
+					<div class="notice_active">
+						<marquee behavior="scroll" direction="left" width="240" height="30" scrollamount="3">滑动轮播11111111111滑动轮播222222222222滑动轮播11111111111滑动轮播222222222222滑动轮播11111111111滑动轮播222222222222</marquee>
 					</div>
 				</div>
 			</div>
@@ -278,7 +266,7 @@
 						</li>
 						<li>
 							<input class="btn-primary" type="button" value="立即留言">
-							<span class="light-ts4"><img src="../img/19.jpg"></span> 
+							<span class="light-ts4"><img src="../img/19.jpg"></span>
 						</li>
 					</ol>
 				</div>
@@ -289,13 +277,14 @@
 
 	</body>
 	<script type="text/javascript">
-		$(function (){
-			$(".btn").click(function (){
+		$(function() {
+			$(".btn").click(function() {
 				$(".modal").slideToggle();
 			})
-			$(".close").click(function (){
+			$(".close").click(function() {
 				$(".modal").slideUp();
 			})
 		})
 	</script>
+
 </html>
