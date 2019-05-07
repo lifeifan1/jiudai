@@ -326,14 +326,12 @@ article:after {
 	width: 1190px;
 	height: 170px;
 	margin: 30px auto;
-	background-color: red;
 }
 
-#minZx li {
+#minZx li,#minZx img{
 	width: 130px;
 	height: 130px;
 	border-radius: 50%;
-	background-color: blue;
 	float: left;
 	margin: 20px 35px 0 20px;
 }
