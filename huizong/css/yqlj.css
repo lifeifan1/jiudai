@@ -1,0 +1,85 @@
+.lianjie {
+	height: 312px;
+	width: 1190px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.lianjie h1 {
+	height: 47px;
+	border-bottom: 2px solid red;
+}
+
+.lianjie h1 p {
+	width: 137px;
+	height: 47px;
+	background: #de2828;
+	line-height: 46px;
+	color: white;
+	text-align: center;
+	float: left;
+}
+
+.lianjie h1 span {
+	float: right;
+	line-height: 47px;
+	font-size: 15px;
+}
+
+.lianjie_top {
+	height: 55px;
+	width: 100%;
+	border-bottom: 1px solid #ECECEC;
+	margin-bottom: 14px;
+}
+
+.lianjie_top p {
+	line-height: 55px;
+	font-size: 13px;
+	margin-left: 16px;
+}
+
+.lianjie_top span {
+	margin: 0 7px;
+}
+.diqu {
+	height: 188px;
+	width: 100%;
+	background: #f1f0f0;
+	border-top: 2px solid #242424;
+}
+
+.diqu article {
+	width: 125px;
+	height: 188px;
+	background: #e0e0e0;
+	float: left;
+}
+
+.diqu article ul {
+	margin-left: 11px;
+	margin-top: 9px;
+}
+
+.diqu article ul li {
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #7C7C7C;
+	text-align: center;
+}
+
+.diqu_right {
+	width: 1029px;
+	height: 100%;
+	float: left;
+	margin-left: 14px;
+	box-sizing: border-box;
+	padding-top: 6px;
+}
+
+.diqu_right ul li a {
+	font-size: 14px;
+	line-height: 30px;
+	margin-right: 46px;
+}

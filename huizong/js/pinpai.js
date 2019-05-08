@@ -16,14 +16,15 @@ $(function() {
 	$(".pp-banner li").hover(function() {
 		clearInterval(timer);
 	}, function() {
+		count = $(this).index();
 		timer = setInterval(function() {
 			lunbo(".pp-banner li");
 		}, 3000)
 	})
+	
 	var num = 0;
 	$(".top-main1").eq(0).show();
 	$(".bj-top-nav li").eq(num).addClass("top-navhover")
-
 	function toplunbo() {
 		num++;
 		if(num == $(".top-main1").length) {
