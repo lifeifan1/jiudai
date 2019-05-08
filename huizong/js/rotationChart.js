@@ -93,7 +93,6 @@ for (let j = 0; j < aNums.length; j++) {
     aNums[j].onmouseover = function () {
         i = j - 1;
         //抵消move的加一动作
-        console.log(i);
         move();
     }
 }
