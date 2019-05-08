@@ -1,0 +1,364 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+figure,
+figcaption {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font: 12px "微软雅黑", "Arial Narrow", HELVETICA;
+	background: #fff;
+	-webkit-text-size-adjust: 100%
+}
+
+a {
+	color: #172c45;
+	text-decoration: none
+}
+
+em {
+	font-style: normal
+}
+
+li {
+	list-style: none
+}
+
+img {
+	border: 0;
+}
+
+.top {
+	width: 100%;
+	height: 100px;
+	background:url(../img/09030025.jpg);
+}
+.top1{
+	width: 1190px;
+	height: 100px;
+	margin:  0 auto;
+	position: relative;
+}
+.top1 img{
+	position: absolute;
+	width: 300px;
+	height: 100px;
+}
+.body {
+	width: 100%;
+	margin: 5px auto;
+}
+
+.zhong {
+	width: 1190px;
+	height: 1752px;
+	margin: 0 auto;
+}
+
+.left {
+	width: 798px;
+	height: 1750px;
+	float: left;
+	border: 1px solid #C10802;
+}
+
+.left h2 {
+	background: #E83632;
+	color: #FFF;
+	height: 28px;
+	line-height: 28px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.paihang {
+	width: 798px;
+	height: 120px;
+}
+
+.paihang img {
+	width: 100px;
+	height: 50px;
+	padding-left: 20px;
+}
+
+.paihang h4 {
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.paihang h5 {
+	line-height: 24px;
+	width: 63px;
+	height: 24px;
+	padding-left: 7px;
+	float: left;
+	margin: 10px 20px;
+	background:url(../img/xiaobg.jpg) no-repeat;
+}
+
+.paihang a {
+	float: left;
+	padding: 10px 20px;
+}
+
+.chanpin {
+	width: 798px;
+	height: 50px;
+}
+
+.chanpin h5 {
+	line-height: 24px;
+	width: 63px;
+	height: 24px;
+	padding-left: 7px;
+	float: left;
+	margin: 0px 20px;
+	background:url(../img/xiaobg.jpg);
+}
+
+.chanpin a {
+	float: left;
+	padding: 0px 20px;
+}
+
+.liuyan h4 {
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.chanpin1 {
+	width: 798px;
+	height: 50px;
+}
+
+.chanpin1 h5 {
+	line-height: 24px;
+	width: 63px;
+	height: 24px;
+	padding-left: 7px;
+	float: left;
+	margin: 10px 20px;
+	background:url(../img/xiaobg.jpg);
+}
+
+.chanpin1 a {
+	float: left;
+	padding: 10px 20px;
+}
+
+.chanpin2 {
+	width: 798px;
+	height: 50px;
+}
+
+.chanpin2 h5 {
+	line-height: 24px;
+	width: 63px;
+	height: 24px;
+	padding-left: 7px;
+	float: left;
+	margin: 0px 20px;
+	background:url(../img/xiaobg.jpg);
+}
+
+.chanpin2 a {
+	float: left;
+	padding: 0px 20px;
+}
+
+.meijiupindao h2 {
+	color: #FFF;
+	height: 28px;
+	line-height: 28px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.dizhi {
+	width: 798px;
+	height: 60px;
+	padding: 10px 0 10px 0px;
+	line-height: 24px;
+	padding-left:10px ;
+}
+
+.dizhi a {
+	color: #000;
+	margin-right: 14px;
+}
+
+.pindao {
+	width: 798px;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.pindao h4 {
+	line-height: 24px;
+	width: 63px;
+	height: 24px;
+	padding-left: 7px;
+	margin-left:20px ;
+	float: left;
+	background: url(../img/xiaobg.jpg);
+	font-size: 12px;
+}
+
+.pindao a {
+	float: left;
+	padding: 0 10px;
+}
+
+.right {
+	width: 308px;
+	height: 1000px;
+	float: left;
+	margin-left: 80px;
+	border: 1px solid #cecece;
+}
+
+.hot h3 {
+	width: 298px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: #fff;
+	background: #E83632;
+}
+
+.leibiao img {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.leibiao dt {
+	padding: 10px 10px;
+}
+
+.leibiao dd b {
+	margin-left: 100px;
+}
+
+.leibiao dd p {
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 140px;
+}
+
+
+/*最底部css*/
+
+.yl_allabove {
+	width: 1170px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	background: #f3f3f3;
+	border-top: none;
+	line-height: 22px;
+	font-size: 12px;
+}
+
+.yl_allabove a {
+	padding: 0 2px;
+	box-sizing: border-box;
+}
+
+.footdibu {
+	width: 100%;
+	height: 200px;
+	background: #3f3e3e;
+}
+
+.foot {
+	width: 1190px;
+	height: 200px;
+	margin: 0 auto;
+	background: #3f3e3e;
+	position: relative;
+}
+
+.foot ul {
+	width: 1190px;
+	height: 40px;
+	color: #fff;
+}
+
+.foot li a {
+	color: #fff;
+}
+
+.foot li {
+	font-size: 12px;
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+.bqdiv {
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 20px;
+	color: #cccaca;
+}
+
+.footpic {
+	margin-top: 16px;
+	padding-left: 20px;
+	color: #fff;
+}
+
+.footpic li {
+	float: left;
+	margin: 0 10px;
+	color: #fff;
+}
+
+.wxdiv {
+	width: 260px;
+	position: absolute;
+	left: 800px;
+	top: 30px
+}
+
+.wxdiv ul {
+	width: 400px;
+}
+
+.wxdiv li {
+	width: 130px;
+	margin-right: 50px;
+	font-size: 12px;
+	line-height: 30px;
+	color: #fff;
+	text-align: left;
+}
+
+.wxdiv li img {
+	width: 100px;
+}
