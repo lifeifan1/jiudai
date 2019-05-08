@@ -7,8 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/mingjiupinpai.css" />
 		<link rel="stylesheet" href="../css/rotationChart.css">
 		<link rel="stylesheet" type="text/css" href="../css/headr.css" />
-		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
-		<script type="text/javascript" src="../js/mingjiupinpai.js"></script>
+		
 	</head>
 
 	<body>
@@ -739,14 +738,18 @@
 		<footer>
 			<div class="footer"></div>
 		</footer>
-		<script src="../js/jquery-1.11.0.js"></script>
-		<script src="../js/banner_left.js"></script>
-		<script src="../js/startMove.js"></script>
-		<script src="../js/rotationChart.js"></script>
+		
 		<!--引入-->
+		<script type="text/javascript" src="../js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="../js/mingjiupinpai.js"></script>
+		<script type="text/javascript" src="../js/banner_left.js"></script>
+		<script type="text/javascript" src="../js/startMove.js"></script>
+		<script type="text/javascript" src="../js/rotationChart.js"></script>
 		<script type="text/javascript">
-			$(".header").load("header.html");
-			$(".footer").load("jdfooter.html");
+			$(function (){	
+				$(".header").load("header.html");
+				$(".footer").load("jdfooter.html");
+			})
 		</script>
 	</body>
 
