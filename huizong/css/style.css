@@ -1,0 +1,139 @@
+@charset"utf-8";
+* {
+    margin:0;
+    padding:0;
+    list-style-type:none
+}
+a, img {
+    border:0
+}
+body {
+    font:12px/180% Arial, Helvetica, sans-serif, "新宋体";
+
+}
+#slider-container {
+    margin:0;
+    width:938px;
+    height:408px;
+    overflow:hidden;
+    clear:both!important;
+    position:relative;
+    float: left;
+}
+.nivoSlider {
+    background:url(../images/loading.gif) no-repeat 50% 50% #fff;
+    margin-bottom:10px;
+    position:relative
+}
+.nivoSlider img {
+    left:0;
+    top:0;
+    display:none;
+    position:absolute
+}
+.nivoSlider a {
+    border:0 currentColor;
+    display:block
+}
+.nivo-directionNav a {
+    border:0 currentColor;
+    width:22px;
+    height:24px;
+    text-indent:-9999px;
+    display:block
+}
+#slider {
+    margin:0 auto;
+    width:938px;
+    height:408px;
+    overflow:hidden;
+    position: absolute;;
+    z-index:-4;
+}
+#slider h1 {
+    color:#fff;
+    font-size:24px
+}
+#slider .sdate {
+    padding-bottom:10px;
+    display:block
+}
+#slider hr {
+    margin:0 0 20px;
+    padding:0;
+    border-bottom-color:#898989;
+    border-bottom-width:1px;
+    border-bottom-style:solid
+}
+#banner{
+    width:1190px;
+    height: 408px;  
+    margin: 0 auto;
+}
+#banner ._rig{
+    width: 250px;
+    height: 408px;
+    /* border-left: 2px solid #10074181; */
+    float: right;
+}
+._rig img{
+    width: 250px;
+    height: 408px;
+}
+.aTk{
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+.aTk > p{
+    line-height: 70px;
+    height: 70px;
+    width: 1190px;
+}
+.aTk ._bt{
+    width: 100%;
+    height: 70px;
+    background-color: #e7f5ff;
+}
+._bt h1{
+    line-height: 70px;
+    width: 230px;
+    background-color: #1c78c5;
+    color: #fff;
+    text-align: center;
+}
+._tc{
+    width: 1190px;
+    height: 2345px;
+    margin: 10px auto;
+}
+._tc li{
+    float: left;
+    margin: 12px 10px;
+    padding: 8px;
+    width: 261px;
+    height: 340px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+}
+._tc li img{
+    width: 261px;
+    height: 281px;
+}
+._tc li p{
+    font-size: 16px;line-height: 26px;
+    padding:5px 0;
+}
+
+
+
+
+
+
+
+
+/* #test{
+    width:1190px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;
+} */
