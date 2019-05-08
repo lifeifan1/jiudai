@@ -1,0 +1,185 @@
+.db_1 {
+    width: 100%;
+    height: 45px;
+    background-color: #0067a9;
+}
+
+header {
+    width: 1000px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #0067a9;
+}
+
+header img {
+    float: left;
+    margin-right: 130px;
+}
+
+herder ul {
+    float: right;
+}
+
+header li {
+    float: left;
+    height: 45px;
+    padding: 0 10px;
+    line-height: 45px;
+    border-right: 1px solid #002379;
+}
+
+header a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+article {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+._banner,
+._banner img {
+    height: 260px;
+    width: 1000px;
+}
+
+.ss_Nav {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.ss_ {
+    width: 800px;
+    height: 50px;
+    padding-left: 200px;
+    background-color: #f40;
+}
+
+.nav_min li {
+    float: left;
+    height: 50px;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.nav_m {
+    /* display: none; */
+    width: 1000px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.nav_b .nav_m:last-child {
+    display: none;
+}
+
+.nav_b .nth_m:first-child {
+    display: block;
+}
+
+.nav_b .nav_m>div {
+    margin: 5px 0 0 10px;
+    float: left;
+}
+
+.nav_m>div,
+.nav_m img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav_b {
+    height: 130px;
+    width: 1000px;
+    position: relative;
+}
+
+.article {
+    width: 1000px;
+    height: 873px;
+    margin: 0 auto;
+}
+
+
+#article_min {
+    width: 730px;
+}
+
+.bt_min {
+    width: 730px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #0067a9
+}
+
+.p_liebiao li {
+    border-bottom: #dfe8f1 1px dashed;
+    width: 700px;
+    padding: 10px 0;
+}
+
+.p_liebiao {
+    width: 730px;
+    float: left;
+}
+
+.p_liebiao b {
+    font-size: 20px;
+    line-height: 46px;
+    font-weight: normal;
+}
+
+.p_liebiao span {
+    float: right;
+    font-size: 14px;
+    color: #b9b8b8
+}
+
+.p_liebiao p {
+    line-height: 20px;
+    color: #666;
+}
+
+
+.aside {
+    width: 230px;
+    float: right;
+}
+
+.gshq {
+    width: 230px;
+    margin: 10px 0;
+}
+
+.gshq h3 {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border-bottom: #db0909 2px solid
+}
+
+.gshq span {
+    float: right;
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: normal
+}
+
+.gshq li {
+    line-height: 26px;
+    font-size: 14px;
+    height: 26px;
+
+    overflow: hidden;
+}
+
+.gshq a {
+    color: #666;
+}
