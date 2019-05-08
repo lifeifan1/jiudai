@@ -3,6 +3,12 @@
 	margin: auto;
 	overflow: auto;
 }
+.wrap a{
+	color: #000;
+}
+.wrap a:hover{
+	text-decoration: underline;
+}
 .wrap-header{
 	width: 1190px;
 	margin: auto;
@@ -30,6 +36,9 @@
 }
 .wrap-header li:last-of-type a{
 	border: none;
+}
+.ppdaohang{
+	overflow: auto;
 }
 .pp-banner{
 	width: 286px;
@@ -99,6 +108,188 @@
 	width: 274px;
 	float: left;
 	height: 296px;
-	background: red;
+/*	background: red;*/
 	margin: 10px 0;
+	text-align: center;
+}
+.pp-nav h3{
+	font-size: 24px;
+	text-align: left;
+	padding-left: 20px;
+	/*color: #fff;*/
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+.pp-nav li{
+	line-height: 35px;
+}
+.tit{
+	border-bottom: 3px solid #DE2828;
+}
+.pp-tuijian{
+	overflow: hidden;
+}
+.pp-tuijian h3{
+	font-size: 20px;
+	line-height: 30px;
+	background: #DE2828;
+	width: 150px;
+	color: #fff;
+	text-align: center;
+}
+.pp-tuijian li{
+	width: 370px;
+	padding: 10px;
+	background: #F1F1F1;
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+.pp-tuijian li a:hover{
+	text-decoration: none;
+}
+.pp-tuijian li:nth-of-type(3n){
+	margin-right: 0;
+}
+.pp-tuijian li img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+}
+.pp-tuijian li p{
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #c70000;
+}
+.pp-tuijian li i{
+	display: block;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 20px;
+}
+.pp-left{
+	overflow: auto;
+	width: 850px;
+	margin-right: 10px;
+	float: left;
+}
+
+.bjpp{
+	overflow: auto;
+	width: 850px;
+	margin-right: 10px;
+}
+.bjpp h3{
+	font-size: 18px;
+	line-height: 40px;
+	background: #DE2828;
+	color: #FFF;
+	padding: 0 20px;
+}
+.bjpp h3 span{
+	float: right;
+	font-size: 12px;
+}
+
+.bjpp li{
+	width: 398px;
+	padding: 10px;
+	border: 1px solid #cecece;
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+.bjpp li a:hover{
+	text-decoration: none;
+}
+.bjpp li:nth-of-type(2n){
+	margin-right: 0;
+}
+.bjpp li img{
+	width: 150px;
+	height: 130px;
+	float: left;
+	margin-right: 10px;
+}
+.bjpp li p{
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #c70000;
+}
+.bjpp li i{
+	display: block;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 20px;
+}
+.bjpp li em{
+	display: block;
+	margin-top: 15px;
+	font-size: 12px;
+	text-align: center;
+	background: #f1f1f1;
+	line-height: 20px;
+}
+.bjpp-banner img{
+	width: 850px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.pp-right{
+	width: 330px;
+	float: left;
+}
+.bj-top h3{
+	text-align: center;
+	color: #fff;
+	background: #DE2828;
+	line-height: 40px;
+}
+.bj-top-nav ul{
+	border: 1px solid #cecece;
+	overflow: auto;
+}
+.bj-top-nav li {
+	float: left;
+	width: 65px;
+	text-align: center;
+	line-height: 30px;
+}
+.bj-top-nav li:hover,.top-navhover{
+	background: #e80000;
+	
+}
+.bj-top-nav li:hover a,.top-navhover a{
+	color: #fff;
+}
+.top-main ul{
+	border: 1px solid #cecece;
+	overflow: auto;
+}
+.top-main li{
+	padding: 5px;
+	overflow: auto;
+	border-bottom: 1px solid #cecece;
+}
+.top-main li:last-of-type{
+	border: none;
+	
+}
+.top-main img{
+	width: 100px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+.top-main li p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 20px;
+}
+.top-main .top-main1{
+	display: none;
+}
+.top-main .top-main1:first{
+	display: block;
 }

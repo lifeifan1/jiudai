@@ -8,6 +8,9 @@ $(function() {
 		}
 		$(".pic li").eq(count).fadeIn().siblings().fadeOut()
 	}, 2000)
+	
+	
+	
 	$(".footer-banner ul").width(300 * $(".footer-banner li").length);
 	var settimes; //定时器
 	var $this = $(".footer-banner");
@@ -25,7 +28,7 @@ $(function() {
 	}
 	//悬停事件
 	$this.hover(function() {
-		clearInterval(settimes); //清楚定时器
+		clearInterval(settimes); //清除定时器
 	}, function() {
 		settimes = setInterval(function() {
 			scrollNews($this);
