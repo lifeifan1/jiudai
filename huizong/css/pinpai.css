@@ -1,3 +1,8 @@
+.wrap{
+	width: 1190px;
+	margin: auto;
+	overflow: auto;
+}
 .wrap-header{
 	width: 1190px;
 	margin: auto;
@@ -25,4 +30,75 @@
 }
 .wrap-header li:last-of-type a{
 	border: none;
+}
+.pp-banner{
+	width: 286px;
+	height: 286px;
+	border: 5px solid #761C19;
+	overflow: hidden;
+	margin: 10px 0;
+	float: left;
+}
+.pp-banner li{
+	display: none;
+	position: relative;
+	height: 286px;
+}
+.pp-banner p{
+	position: absolute;
+	bottom: 0;
+	background: #BABABA;
+	width: 286px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.pp-banner img{
+	width: 286px;
+	height: 256px;
+}
+.pp-news{
+	background: url(../img/pinpai_03.jpg);
+	background-size: cover;
+	width: 570px;
+	height: 266px;
+	margin: 10px;
+	float: left;
+	padding: 15px;
+}
+.pp-news>p{
+	text-align: right;
+	font-size: 14px;
+	line-height: 30px;
+}
+.pp-news h3{
+	text-align: center;
+}
+.pp-news h3 a{
+	color: #ee0004;
+	font-size: 24px;
+	line-height: 40px;
+}
+.pp-news i{
+	text-indent: 2em;
+	display: block;
+	line-height: 20px;
+	font-size: 12px;
+}
+.news-nav{
+	font-size: 14px;
+	line-break: 20px;
+	margin-top: 15px;
+}
+.news-nav li {
+	float: left;
+	width: 245px;
+	padding-left: 30px;
+}
+.pp-nav{
+	width: 274px;
+	float: left;
+	height: 296px;
+	background: red;
+	margin: 10px 0;
 }
