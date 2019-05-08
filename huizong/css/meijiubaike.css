@@ -122,12 +122,13 @@ s
 .zhongjian{
 	width: 1000px;
 /*	background: #2F83D0;*/ /*！！！！背景色*/
-	height: 1000px;
+height: 1688px;
 	margin: 0 auto;
 	margin-top: 30px;
 }
 .zuo{
 	width: 750px;
+	float: left;
 }
 .jing{
 	width: 740px;
@@ -244,6 +245,237 @@ s
 	width: 740px;
 	height: 80px;
 	background: #666666;
-	margin-top: 20px;
+	margin: 20px 0 20px 0;
 }
 /*灰色块*/
+
+.fenlei{
+	width: 740px;
+	height: 1017px;
+
+}
+.wine{
+	width: 360px;
+	height: 329px;
+	float: left;
+	border: 1px solid #eee;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.wine h3{
+	width: 350px;
+	height: 28px;
+	border-bottom: 1px solid #eee;
+	font-size: 13px;
+	line-height: 28px;
+}
+.wine h3 span{
+	width: 50px;
+	height: 28px;
+	float: right;
+	line-height: 28px;
+}
+.wine_1{
+	width: 343px;
+	height: 84px;
+	border-bottom: 1px dashed #E2E3E3;
+	margin-top: 5px;
+}
+.wine_1 img{
+	width: 98px;
+	height: 73px;
+	border: 1px solid #E0E0E0;
+	margin-left: 5px;
+	float: left;
+}
+.wine_2{
+	width: 235px;
+	height: 72px;
+	float: left;
+}
+.wine_2 h4{
+	width: 200px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	margin-left: 15px;
+}
+.wine_2 h4 a{
+	color: #0099FF;
+}
+.wine_2 p{   text-indent:2em;
+font-size: 12px; 
+ } 
+.wine_2 p a{
+	color: #0099FF;
+}
+.list{
+	margin-top: 10px;
+	width: 343px;
+	height: 196px;
+}
+.list li{
+	width: 343px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}
+.list li span a{
+	color: #0099FF;
+}
+/*酒分类 白酒啤酒等*/
+.baike{
+	width: 740px;
+	height: 190px;
+	border:  1px solid #E0E0E0;
+}
+.baike h3{
+	width: 740px;
+	height: 30px;
+	background: #F0F0F0;
+	font-size: 12px;
+	font-weight:600;
+	line-height: 30px;
+
+}
+.baike h3 a{
+		color: #000000;
+}
+.baike1_1{
+    overflow: hidden;
+    width: 2830px;
+    position: relative;
+}
+.baike1_1 li{
+	width: 158px;
+	height: 150px;
+	float: left;
+	margin: 10px;
+}
+.baike1_1 li img{
+	width: 170px;
+	height: 116px;
+	border: 1px solid #E1E1E1;
+}
+.baike1_1 li span{
+	display: block;
+	width: 168px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+/*百度百科轮播*/
+.you{
+	width: 240px;
+	background: #E1E1E1;
+	float: right;
+}
+.you h3{
+	width: 220px;
+	height: 39px;
+	border: 1px solid #E5E5E5;
+	background: #fff;
+	margin: 10px;
+	font-size: 13px;
+	line-height: 39px;
+	text-indent:1em;
+}
+.mingjiu{
+	width: 220px;
+	height: 319px;
+	background: #fff;
+	margin: 10px;
+
+}
+.mingjiu h4{
+	width: 210px;
+	height: 32px;
+	text-indent:1em;
+	line-height: 32px;
+	font-size: 12px;	
+}
+.mingjiu h4 b{
+	width: 80px;
+	height: 32px;
+	float: right;
+}
+.olist li{
+	width: 98px;
+	height: 24px;
+	font-size:12px;
+	float: left;
+	padding-left: 5px;
+	margin: 2px 0 0 3px;
+	line-height: 24px;
+	border: 1px solid #F0F0F0;
+}
+.olist li a{
+	color: #000000;
+}
+
+.mingjiu1{
+	width: 220px;
+	height: 296px;
+	background: #fff;
+	margin: 10px;
+
+}
+.mingjiu1 h4{
+	width: 210px;
+	height: 32px;
+	text-indent:1em;
+	line-height: 32px;
+	font-size: 12px;
+	font-weight:600px ;	
+}
+.mingjiu1 h4 b{
+	width: 80px;
+	height: 32px;
+	float: right;
+}
+.olist1 li{
+	width: 210px;
+	height: 24px;
+	font-size:12px;
+	margin: 2px 0 0 3px;
+	line-height: 24px;
+}
+.olist1 li a{
+	color: #0F0F0F;
+}
+/*新闻列表*/
+.huikuai2{
+	width: 220px;
+	height:70px;
+	background: #666666;
+	margin: 10px;
+}
+/*右边*/
+.wei{
+	width: 100%;
+	height: 30px;
+	background: #eee;
+	margin-top: 20px;
+}
+.wei1{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+}
+.wei1 li{
+	font-size: 12px;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.wei3{
+	width: 1000px;
+	height: 96px;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 24px;
+	color: #666;
+}
