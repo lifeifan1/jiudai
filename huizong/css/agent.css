@@ -143,7 +143,7 @@ header{
 	border: 2px solid #DC0303;
 	margin-left: 15%;
 }
-.hotinput select{
+.input .hotinput select{
 	width: 70px;
 	height: 31px;
 	border: 0;
@@ -151,7 +151,7 @@ header{
 	text-align: center;
 	font-size: 14px;
 }
-.hotinput input[type=text]{
+.input .hotinput input[type=text]{
 	width: 675px;
 	height: 28px;
 	border: 0;
@@ -161,7 +161,7 @@ header{
 }
 .hotinput input[type=button]{
 	width: 80px;
-	height: 31px;
+	height: 35px;
 	border: 0;
 	background-color: #DC0303;
 	color: white;
