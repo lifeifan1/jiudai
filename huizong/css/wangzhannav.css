@@ -70,13 +70,13 @@ img {
 
 .zhong {
 	width: 1190px;
-	height: 1752px;
+	height: 2237px;
 	margin: 0 auto;
 }
 
 .left {
 	width: 798px;
-	height: 1750px;
+	height: 2235px;
 	float: left;
 	border: 1px solid #C10802;
 }
@@ -148,7 +148,7 @@ img {
 
 .chanpin1 {
 	width: 798px;
-	height: 50px;
+	height: 60px;
 }
 
 .chanpin1 h5 {
@@ -168,7 +168,7 @@ img {
 
 .chanpin2 {
 	width: 798px;
-	height: 50px;
+	height: 80px;
 }
 
 .chanpin2 h5 {
@@ -183,7 +183,7 @@ img {
 
 .chanpin2 a {
 	float: left;
-	padding: 0px 20px;
+	padding: 5px 20px;
 }
 
 .meijiupindao h2 {
@@ -205,11 +205,12 @@ img {
 .dizhi a {
 	color: #000;
 	margin-right: 14px;
+	padding: 0 5px;
 }
 
 .pindao {
 	width: 798px;
-	height: 40px;
+	height: 60px;
 	margin-top: 20px;
 }
 
@@ -226,7 +227,7 @@ img {
 
 .pindao a {
 	float: left;
-	padding: 0 10px;
+	padding: 3px 10px;
 }
 
 .right {
