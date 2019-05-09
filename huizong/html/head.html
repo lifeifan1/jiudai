@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<meta charset="utf-8">
+		<link rel="icon" href="https://jscdn.com.cn/highcharts/images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link rel="icon" href="https://jscdn.com.cn/highcharts/images/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://code.highcharts.com.cn/highstock/highstock.js"></script>
+		<script src="https://code.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+
+		<link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/head1.css" />
+	</head>
+
+	<body>
+		<div id="header">
+			<div class="top-left"><img src="" /><span>好酒代理网内部管理系统</span></div>
+			<div class="top-right">
+				<ul class="riggh">
+					<li class="xiaoxi">
+						<a href="">消息提醒</a>
+					</li>
+					<li class="yonghu">
+						<a href="">
+							<p></p><span>用户名</span></a>
+					</li>
+					<li class="out">
+						<a href=""><span></span>退出</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</header>
+		<nav id="nav">
+			<ul class="nav1">
+				<li class="xito1">
+					<span>系统设置</span>
+					<ul>
+						<li>
+							<a href="">内部员工管理</a>
+						</li>
+						<li>
+							<a href="">职位管理</a>
+						</li>
+						<li>
+							<a href="">权限管理</a>
+						</li>
+						<li>
+							<a href="">网站管理</a>
+						</li>
+					</ul>
+				</li>
+				<li class="xito1">
+					<span>商家管理</span>
+					<ul>
+						<li>
+							<a href="">商家审核</a>
+						</li>
+						<li>
+							<a href="">商家代理信息</a>
+						</li>
+						<li>
+							<a href="">商家VIP管理</a>
+						</li>
+					</ul>
+				</li>
+				<li class="xito1">
+					<a href="">产品管理</a>
+				</li>
+				<li class="xito1">
+					<a href="">好酒百科</a>
+				</li>
+				<li class="xito1">
+					<a href="">资讯管理</a>
+				</li>
+				<li class="xito1">
+					<a href="">商家VIP跟踪</a>
+				</li>
+				<li class="xito1">
+					<a href="">客服管理</a>
+				</li>
+				<li class="xito1">
+					<span>流量统计</span>
+					<ul>
+
+						<li>
+							<a href="">用户管理</a>
+						</li>
+						<li>
+							<a href="">日活用户</a>
+						</li>
+						<li>
+							<a href="">今日新增用户</a>
+						</li>
+						<li>
+							<a href="">VIP充值用户</a>
+						</li>
+						<li>
+							<a href="">数据统计</a>
+						</li>
+					</ul>
+				</li>
+
+			</ul>
+		</nav>
+		<div id="TOP">
+			^
+		</div>
+		<div class="box1"></div>
+		<script type="text/javascript">
+			$(function() {
+				$.get('数据统计.html',function(data)
+						{
+							$('.box1').html(data);
+						})
+				$(".xito1:has(ul)").addClass("plus")
+					.click(function(e) {
+						e.stopPropagation();
+						$(this).children("ul").slideToggle();
+						$(this).toggleClass("minus");
+
+					});
+				$(window).scroll(function() {
+					if($(window).scrollTop() >= 160) {
+						console.log($("#TOP").height())
+						console.log($(window).scrollTop())
+						$("#TOP").fadeIn("2000");
+					} else {
+						$("#TOP").fadeOut("slow");
+					}
+
+				})
+				$('li').click(function(e) {
+
+					if(this.children.length <= 1) {
+
+						$.get($(this).text() + ".html", function(data) {
+							$('.box1').html(data);
+						})
+					}
+
+					return false;
+
+				})
+			})
+		</script>
+	</body>
+
+</html>

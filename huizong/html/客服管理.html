@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/**/
+			
+			.table-hover {
+				text-align: center;
+			}
+			
+			.table-hover th {
+				text-align: center;
+			}
+			/*#texts{
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}*/
+			/*.tete {
+	display: block;
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}*/
+			
+			#bianji {
+				border: none;
+				background: rgb(0, 166, 90);
+				color: #fff;
+				border-radius: 3px;
+				font-size: 12px;
+				width: 40px;
+				height: 25px;
+				margin-right: 10px;
+			}
+			
+			#delete {
+				border: none;
+				background: red;
+				color: #fff;
+				border-radius: 3px;
+				font-size: 12px;
+				width: 40px;
+				height: 25px;
+			}
+			
+			.daohan {
+				height: 50px;
+				line-height: 50px;
+				padding-left: 20px;
+				background: #f0f0f0;
+			}
+			
+			.daohan1 {
+				height: 40px;
+				padding-top: 10px;
+				padding-left: 20px;
+			}
+			
+			#xinzeng {
+				width: 74px;
+				height: 25px;
+				background: rgb(31, 133, 236);
+				border: none;
+				color: #fff;
+			}
+			
+			#piliang {
+				width: 74px;
+				height: 25px;
+				background: red;
+				border: none;
+				color: #fff;
+				margin-left: 10px;
+			}
+			/*.fenye{
+	width: 100%;
+	height: 60px;
+}
+#pages{
+	width: 315px;
+	height: 60px;
+	margin: 0 auto;
+}
+#pages li {
+	float: left;
+	margin: 10px;
+	padding:5px 8px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span:hover,
+#pages li span.hover {
+	background: red;
+	color: white;
+}
+
+#pages .pageNum {
+	border: none;
+	padding: 0;
+}*/
+		</style>
+	</head>
+
+	<body>
+
+		<div class="daohan">
+			您当前的位置>>客服管理
+		</div>
+		<div class="daohan1">
+			<input type="button" name="xinzeng" id="xinzeng" value="添加客服" />
+			<!--<input type="button" name="xinzeng" id="xinzeng" value="客服管理" />
+					<input type="button" name="" id="piliang" value="批量删除" />-->
+		</div>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+
+					<th class="id">序号</th>
+					<th class="dadt">工号</th>
+					<th class="name">客服名称</th>
+					<th class="namber">部门</th>
+					<th class="VX">级别</th>
+					<th class="zhuang">状态</th>
+					<th class="shouquan">授权日期</th>
+					<th class="caozuo">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+
+					<th scope="row">1</th>
+					<td>1001</td>
+					<td>奎奎姐姐</td>
+					<td>管理部</td>
+					<td>普通客服</td>
+					<td>在线</td>
+					<td>2019/05/04</td>
+					<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>1001</td>
+					<td>奎奎姐姐</td>
+					<td>管理部</td>
+					<td>普通客服</td>
+					<td>在线</td>
+					<td>2019/05/04</td>
+					<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>1001</td>
+					<td>奎奎姐姐</td>
+					<td>管理部</td>
+					<td>普通客服</td>
+					<td>在线</td>
+					<td>2019/05/04</td>
+					<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+				</tr>
+				<tr>
+					<th scope="row">1</th>
+					<td>1001</td>
+					<td>奎奎姐姐</td>
+					<td>管理部</td>
+					<td>普通客服</td>
+					<td>在线</td>
+					<td>2019/05/04</td>
+					<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+				</tr>
+			</tbody>
+		</table>
+		<!--<div class="fenye">
+					<ul id="pages">
+			<li>首页</li><li>上一页</li><li class="pageNum"></li><li>下一页</li><li>尾页</li>
+		</ul>
+				</div>-->
+
+	</body>
+
+</html>

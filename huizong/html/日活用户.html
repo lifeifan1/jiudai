@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+.daohan {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #f0f0f0;
+}
+.daohan1{
+	padding-left: 20px;
+	height: 40px;
+	padding-top: 10px;
+}
+#container{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.highcharts-axis-resizer {
+    stroke: #eee;
+}
+.highcharts-axis-resizer:hover {
+    stroke: #ccc;
+}
+
+
+
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="wrop">
+			<div class="wrop1">
+				<div class="daohan">
+					您当前的位置>>日活用户
+				</div>
+				
+				<div id="container" style="min-width:400px;height:550px"></div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$.getJSON('https://data.jianshukeji.com/stock/history/000001', function (data) {
+    if(data.code !== 1) {
+        alert('读取股票数据失败！');
+        return false;
+    }
+    data = data.data;
+    // 去掉多余的数据
+    Highcharts.each(data, function(d) {
+        d.length = 2;
+    });
+    Highcharts.stockChart('container', {
+        rangeSelector: {
+            selected: 0
+        },
+        title: {
+            text: '日常活跃用户'
+        },
+        plotOptions: {
+            series: {
+                showInLegend: true
+            }
+        },
+        tooltip: {
+            split: false,
+            shared: true
+        },
+        series: [{
+            // type: 'line',
+            id: '000001',
+            name: '平安银行',
+            data: data
+        }]
+    });
+});
+
+			})
+		</script>
+	</body>
+
+</html>

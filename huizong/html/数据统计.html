@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		
+        <style>
+.daohan {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #f0f0f0;
+}
+.daohan1{
+	padding-left: 20px;
+	height: 40px;
+	padding-top: 10px;
+}
+#container{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.highcharts-axis-resizer {
+    stroke: #eee;
+}
+.highcharts-axis-resizer:hover {
+    stroke: #ccc;
+}
+
+        </style>
+        <script src="https://code.highcharts.com.cn/highcharts/highcharts.js"></script>
+        <script src="https://code.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+        <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="wrop">
+			<div class="wrop1">
+				<div class="daohan">
+					您当前的位置>>数据统计
+				</div>
+				
+				<div id="container" style="min-width:400px;height:550px"></div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var chart = Highcharts.chart('container',{
+    chart: {
+        type: 'column'
+    },
+    title: {
+        text: '用户量数据'
+    },
+    subtitle: {
+        text: '数据来源: WorldClimate.com'
+    },
+    xAxis: {
+        categories: [
+            '一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'
+        ],
+        crosshair: true
+    },
+    yAxis: {
+        min: 0,
+        title: {
+            text: '人数'
+        }
+    },
+    tooltip: {
+        // head + 每个 point + footer 拼接成完整的 table
+        headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+        '<td style="padding:0"><b>{point.y:.1f}人</b></td></tr>',
+        footerFormat: '</table>',
+        shared: true,
+        useHTML: true
+    },
+    plotOptions: {
+        column: {
+            borderWidth: 0
+        }
+    },
+    series: [{
+        name: '总用户',
+        data: [49, 71, 106, 129, 144, 176, 135, 148, 216, 194, 95, 54]
+    }, {
+        name: '活跃用户',
+        data: [83, 78, 98, 93, 106, 84, 105, 104, 91, 83, 106, 92]
+    }, {
+        name: 'VIP充值用户',
+        data: [48, 38, 39, 41, 47, 48, 59, 59, 52, 65, 59, 51]
+    }, {
+        name: '新增用户',
+        data: [42, 33, 34, 39, 52, 75, 57, 60, 47, 39, 46, 51]
+    }]
+});
+
+			})
+		</script>
+	</body>
+
+</html>

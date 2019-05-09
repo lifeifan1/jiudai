@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+.table-hover{
+	text-align: center;
+}
+.table-hover th{
+	text-align: center;
+}
+
+#dizhi{
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tete{
+	display: block;
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#bianji {
+	border: none;
+	background: rgb(0, 166, 90);
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 40px;
+	height: 25px;
+	margin:0 10px;
+}
+
+#delete {
+	border: none;
+	background: red;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 40px;
+	height: 25px;
+}
+
+
+.daohan {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #f0f0f0;
+}
+.daohan1{
+	padding-left: 20px;
+	height: 40px;
+	padding-top: 10px;
+}
+#xinzeng{
+	width: 40px;
+	height: 25px;
+	background: rgb(31,133,236);
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+}
+
+#piliang{
+	width: 74px;
+	height: 25px;
+	background: red;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+}
+.fenye{
+	width: 100%;
+	height: 60px;
+}
+#pages{
+	width: 315px;
+	height: 60px;
+	margin: 0 auto;
+}
+#pages li {
+	float: left;
+	margin: 10px;
+	padding:5px 8px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span:hover,
+#pages li span.hover {
+	background: red;
+	color: white;
+}
+
+#pages .pageNum {
+	border: none;
+	padding: 0;
+}
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="wrop">
+			<div class="wrop1">
+				<div class="daohan">
+					您当前的位置>>商家VIP追踪
+				</div>
+				<div class="daohan1">
+					<input type="button" name="xinzeng" id="xinzeng" value="新增" />
+					<input type="button" name="" id="piliang" value="批量删除" />
+				</div>
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th class="check"><input type="checkbox" /></th>
+							<th class="id">店铺编码</th>
+							<th class="dadt">店铺名称</th>
+							<th class="name">充值金额</th>
+							<th class="namber">联系电话</th>
+							<th class="diqu">所在地区</th>
+							<th class="diqu">VIP起始时间</th>
+							<th class="caozuo">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><input type="checkbox" class="" /></th>
+							<td>1001</td>
+							<td>王大锤的店铺</td>
+							<td>2000</td>
+							<td>18530517576</td>
+							<td>河南省郑州市</td>
+							<td>2019/03/04-2019/08/04</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+						<tr>
+							<th scope="row"><input type="checkbox" class="" /></th>
+							<td>1001</td>
+							<td>王大锤的店铺</td>
+							<td>2000</td>
+							<td>18530517576</td>
+							<td>河南省郑州市</td>
+							<td>2019/03/04-2019/08/04</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+						<tr>
+							<th scope="row"><input type="checkbox" class="" /></th>
+							<td>1001</td>
+							<td>王大锤的店铺</td>
+							<td>2000</td>
+							<td>18530517576</td>
+							<td>河南省郑州市</td>
+							<td>2019/03/04-2019/08/04</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+						<tr>
+						<th scope="row"><input type="checkbox" class="" /></th>
+							<td>1001</td>
+							<td>王大锤的店铺</td>
+							<td>2000</td>
+							<td>18530517576</td>
+							<td>河南省郑州市</td>
+							<td>2019/03/04-2019/08/04</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="fenye">
+					<ul id="pages">
+						<li>首页</li>
+						<li>上一页</li>
+						<li class="pageNum"></li>
+						<li>下一页</li>
+						<li>尾页</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
