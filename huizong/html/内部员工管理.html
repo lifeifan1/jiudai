@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	
+	<style type="text/css">
+		
+		.pagination {
+			width: 300px;
+			margin: auto;
+			display: block;
+		}
+		
+		
+		p{
+		
+		
+		font-size: 20px;
+		margin-top: 10px;
+		}
+		
+		#add{
+			width: 100px;
+			height: 20px;
+			background: #CECECE;
+		}
+		
+		#addbtn{
+			margin-top: 10px;
+		}
+		td{
+			text-align: center;
+			}
+		
+		#tj {
+			display:block;
+			margin: 0 auto;
+			}
+			
+		#upadte{
+			display:block;
+			margin: 0 auto;
+			}
+				
+			
+	</style>
+	</head>
+	<body>
+     <div class="container">
+		 
+		 <div class="row">
+		   <div class="col-lg-4">
+			  <div class="row">
+				   <div class="col-lg-1">
+					
+				  	<button class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" id="addbtn" class="btn btn-fullscr" >
+						<span class=" glyphicon glyphicon-pencil"></span>
+						添加员工信息
+					</button>
+					
+				  </div>
+			  </div>
+		   </div>
+		 </div>
+		 <div class="row">
+			 <table class="table table-bordered table-hover wq-main-table">
+				 
+				 <tr  class="active">
+				 	<td><input type="checkbox">全选</td>
+					 <td>电话</td>
+					 <td>姓名</td>
+					 <td>年龄</td>
+					 <td>入职日期</td>
+					 
+					 <td>删除</td>
+					 <td>操作</td>
+				 </tr>
+				 <tbody id="text">
+					<tr>
+					<td><input type="checkbox"></td>
+
+						<td>54</td>
+					
+						<td>3453</td>
+						<td>3453</td>
+						<td>123</td>
+						
+					<td><button  class="btn btn btn-danger">删除</button></td>
+ <td><button data-toggle="modal" data-target="#exampleMo" data-whatever="@mdo"  class="btn btn-fullscr" >修改</button></td>
+					
+					</tr>
+					
+				</tbody>
+				 </tbody>
+				 <footer>
+				 	<td><input type="button" value="批量删除" class="btn btn-danger" /></td>
+				 </footer>
+			 </table>
+			 
+	 <nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+  </nav>
+		 </div>
+	</div>
+	 </div> 
+	   
+	   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">请填写员工信息:</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">电话:</label>
+            <input type="text" class="form-control" id="con_1" >
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">姓名:</label>
+            <textarea class="form-control" id="con_2"></textarea>
+          </div>
+		  
+		  <div class="form-group">
+		    <label for="message-text" class="control-label">年龄:</label>
+		    <textarea class="form-control" id="con_3"></textarea>
+		    <label for="message-text" class="control-label">入职日期:</label>
+		    <textarea class="form-control" id="con_4"></textarea>
+		     <label for="message-text" class="control-label">职位:</label>
+		    <textarea class="form-control" id="con_4"></textarea>
+		  </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="tj" class="btn btn-success">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <div class="modal fade" id="exampleMo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">请填写员工信息:</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">电话：</label>
+            <input type="text" class="form-control" id="con_5" >
+           
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="upadte" class="btn btn-success">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</body>
+</html>

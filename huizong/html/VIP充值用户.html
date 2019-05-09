@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+.table-hover{
+	text-align: center;
+}
+.table-hover th{
+	text-align: center;
+}
+#texts{
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tete {
+	display: block;
+	width: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#bianji {
+	border: none;
+	background: rgb(0, 166, 90);
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 40px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+#delete {
+	border: none;
+	background: red;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 40px;
+	height: 25px;
+}
+
+
+.daohan {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	background: #f0f0f0;
+}
+.daohan1{
+	padding-left: 20px;
+	height: 40px;
+	padding-top: 10px;
+}
+#xinzeng{
+	width: 40px;
+	height: 25px;
+	background: rgb(31,133,236);
+	border: none;
+	color: #fff;
+}
+
+#piliang{
+	width: 74px;
+	height: 25px;
+	background: red;
+	border: none;
+	color: #fff;
+	margin-left: 10px;
+}
+.fenye{
+	width: 100%;
+	height: 60px;
+}
+#pages{
+	width: 315px;
+	height: 60px;
+	margin: 0 auto;
+}
+#pages li {
+	float: left;
+	margin: 10px;
+	padding: 8px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 10px;
+	border: 1px solid red;
+	cursor: pointer;
+}
+
+#pages li span:hover,
+#pages li span.hover {
+	background: red;
+	color: white;
+}
+
+#pages .pageNum {
+	border: none;
+	padding: 0;
+}
+		</style>
+	</head>
+
+	<body>
+		
+		<div id="wrop">
+			<div class="wrop1">
+				<div class="daohan">
+					您当前的位置>>VIP充值用户
+				</div>
+				<div class="daohan1">
+					<input type="button" name="xinzeng" id="xinzeng" value="新增" />
+					<input type="button" name="" id="bianji" value="编辑" />
+					<input type="button" name="" id="piliang" value="选中删除" />
+				</div>
+				
+				<table class="table table-hover">
+					
+					<thead>
+						<tr>
+							<th class="check"><input type="checkbox" /></th>
+							<th class="id">序号</th>
+							
+							<th class="name">会员名称</th>
+							<th class="namber">操作日期</th>
+							<th class="VX">类型</th>
+							<th class="diqu">金额</th>
+							<th id="texts">支付方式</th>
+							<th class="caozuo">到款状态</th>
+							<th class="caozuo">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							
+							<th scope="row"><input type="checkbox" class=""/></th>
+							<td>1</td>
+							<td>奎奎姐姐</td>
+							<td>2019/05/06/20:30:30</td>
+							<td>充值</td>
+							<td>200￥</td>
+							<td>支付宝</td>
+							<td>已完成</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+							
+						<tr>
+							<th scope="row"><input type="checkbox" class=""/></th>
+							<td>1</td>
+							<td>奎奎姐姐</td>
+							<td>2019/05/06/20:30:30</td>
+							<td>充值</td>
+							<td>200￥</td>
+							<td>支付宝</td>
+							<td>已完成</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+						<tr>
+							<th scope="row"><input type="checkbox" class=""/></th>
+							<td>1</td>
+							<td>奎奎姐姐</td>
+							<td>2019/05/06/20:30:30</td>
+							<td>充值</td>
+							<td>200￥</td>
+							<td>支付宝</td>
+							<td>已完成</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+						</tr>
+						<tr>
+						<th scope="row"><input type="checkbox" class=""/></th>
+							<td>1</td>
+							<td>奎奎姐姐</td>
+							<td>2019/05/06/20:30:30</td>
+							<td>充值</td>
+							<td>200￥</td>
+							<td>支付宝</td>
+							<td>已完成</td>
+							<td><input type="button" name="" id="bianji" value="编辑" /><input type="button" name="" id="delete" value="删除" /></td>
+					</tr>
+				</tbody>
+				</table>
+				<div class="fenye">
+					<ul id="pages">
+			<li>首页</li><li>上一页</li><li class="pageNum"></li><li>下一页</li><li>尾页</li>
+		</ul>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
